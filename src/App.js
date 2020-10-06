@@ -1,13 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 
-export class App extends Component {
+export function App() {
+    const [input,setInput] = useState('');
+    const [output,setOutput] = useState('');
     
-    render() {
-        
-        return (
-            <div>
-                Hey!
+    return (
+        <div className={'main-body'}>
+            <div className={'section'}>
+                <input onChange={e => setInput(e.target.value)} />
             </div>
-        );
-    }
+            <div className={'section'}>
+                <input />
+            </div>
+        </div>
+    );
 }
+
+
