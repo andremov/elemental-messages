@@ -20,9 +20,11 @@ export default function HomePage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center gap-9 bg-gradient-to-b from-[#120b1b] to-[#151620] text-white">
-      <h1 className="text-3xl font-bold ">Elemental messages</h1>
+      <h1 className="mx-4 text-2xl font-bold md:text-3xl">
+        Elemental messages
+      </h1>
 
-      <p className="text-slate-300">
+      <p className="md:text-md mx-4 text-center text-sm text-slate-300">
         Type something and &quot;translate it&quot; to elements from the
         periodic table!
       </p>
@@ -45,7 +47,7 @@ export default function HomePage() {
         </button>
       </div>
 
-      <div className="flex h-32 items-center gap-1">
+      <div className="flex min-h-[8rem] max-w-screen-md flex-wrap items-center justify-center gap-1">
         {output.map((item, key) => (
           <PeriodicElement data={item} key={key} />
         ))}
