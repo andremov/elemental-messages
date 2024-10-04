@@ -1,0 +1,22 @@
+{
+  "en": {
+    "title": "Elemental Messages",
+    "subtitle": "Type something and \"translate it\" to elements from the periodic table!",
+    "button": "Translate",
+    "placeholder": "Type something...",
+    "titles": {
+      "input": "Input",
+      "output": "Output"
+    }
+  },
+  "es": {
+    "title": "Mensajes Elementales",
+    "subtitle": "Escribe algo y \"traducelo\" a elementos de la tabla periodica!",
+    "button": "Traducir",
+    "placeholder": "Escribe algo...",
+    "titles": {
+      "input": "Entrada",
+      "output": "Salida"
+    }
+  }
+}

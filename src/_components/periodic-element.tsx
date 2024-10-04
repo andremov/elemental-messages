@@ -5,7 +5,7 @@ export function PeriodicElement({ data }: { data: PeriodicElement }) {
   return (
     <div
       className={clsx([
-        "flex h-16 w-16 flex-col items-center justify-between rounded-sm bg-white p-1 text-black md:h-24 md:w-24 md:p-2",
+        "flex h-16 w-16 flex-col items-center justify-between rounded-sm border border-black bg-white p-1 text-black md:h-24 md:w-24 md:p-2",
         {
           "opacity-50": data.atomicNumber === 0,
         },

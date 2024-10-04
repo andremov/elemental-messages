@@ -9,9 +9,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "Elemental Messages",
-  description:
-    'Type something and "translate it" to elements from the periodic table!',
-  // icons: [{ rel: "icon", url: "/favicon.ico" }],
+  description: "👤✏️ Andrés Movilla",
 };
 
 export default function RootLayout({
