@@ -1,0 +1,21 @@
+{
+  "name": "Elemental Messages",
+  "short_name": "Elemental Messages",
+  "description": "Translate text using periodic table elements - by Andrés Movilla",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["utilities", "education", "entertainment"],
+  "screenshots": [],
+  "lang": "en",
+  "dir": "ltr"
+}
