@@ -1,8 +1,6 @@
 import "~/styles/globals.css";
 
 import { type Metadata, type Viewport } from "next";
-import OfflineIndicator from "~/_components/offline-indicator";
-import ServiceWorkerRegistration from "~/_components/service-worker-registration";
 import { Inter } from "next/font/google";
 
 const inter = Inter({
@@ -62,11 +60,7 @@ export default function RootLayout({
         <meta name="msapplication-tap-highlight" content="no" />
         <link rel="apple-touch-icon" href="/favicon.svg" />
       </head>
-      <body>
-        <ServiceWorkerRegistration />
-        <OfflineIndicator />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
