@@ -17,7 +17,6 @@ export const metadata: Metadata = {
   title: "Elemental Messages",
   description: "Translate text using periodic table elements",
   icons: [
-    { rel: "icon", url: "/favicon.svg", type: "image/svg+xml" },
     { rel: "icon", url: "/favicon.ico", sizes: "any" },
     { rel: "apple-touch-icon", url: "/favicon.svg" },
   ],
